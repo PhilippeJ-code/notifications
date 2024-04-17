@@ -176,7 +176,7 @@ function addAction(_action, _type) {
     div += '<div class="col-sm-4 actionOptions">';
     div += jeedom.cmd.displayActionOption(init(_action.cmd, ''), _action.options);
     div += '</div>';
-    div += '</div>';
+    div += '</div>'; 
 
     let newRow = document.createElement('div');
     newRow.innerHTML = div;
